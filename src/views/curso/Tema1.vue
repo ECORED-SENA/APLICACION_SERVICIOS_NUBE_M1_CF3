@@ -6,7 +6,7 @@
     #t_1.titulo-principal
       .titulo-principal__numero
         .h3 1
-      .h3 Título principal, 30pt
+      .h3 Técnicas de análisis de requisitos
 
     .row.mb-5.justify-content-center
       .col-12.col-md-8.mb-4.mb-md-0
