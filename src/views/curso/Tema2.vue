@@ -25,7 +25,7 @@
               .h5.mb-0 Infografía - Estándar IEEE 830
               p Este documento está dividido en secciones y cada una de ellas aborda aspectos particulares. A continuación, se describirá de forma general algunos de los elementos que conforman este documento (IEEE 830-1998).
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/downloads/Infografia_EstandarIEEE830.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     

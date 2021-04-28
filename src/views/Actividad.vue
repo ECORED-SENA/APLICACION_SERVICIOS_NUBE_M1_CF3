@@ -35,7 +35,7 @@
             .col.mb-3.mb-sm-0
               p.fw-bold.mb-0 Construcción de lista de priorizada de requisitos de acuerdo con técnica de priorización.
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad_01/story.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad_02/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece    
 
