@@ -222,11 +222,26 @@
         figure
           img.w-25.mx-auto.m-4(src="@/assets/curso/tema2/img04.svg", alt="proceso de priorizació")
       .col-12.col-md-8
-        p El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de software; el scrum master que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto (product owner) que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto (ScrumStudy, 2021).
+        p
+          | El marco de trabajo 
+          strong Scrum
+          |  est&aacute; soportado en un proceso de construcci&oacute;n iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo (team) conformado por los desarrolladores, dise&ntilde;adores, personal de calidad y de infraestructura requerido para la construcci&oacute;n del producto de software; el 
+          strong scrum master
+          |  que realizan funciones parecidas a las de un director de proyecto, pero m&aacute;s enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el due&ntilde;o del producto (product owner) que se convierte en un representante del cliente y quien es el &uacute;nico encargado de la gesti&oacute;n de requisitos del proyecto (ScrumStudy, 2021).
     
-    p.mb-4 Scrum establece el concepto de sprint para referirse a una iteración que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeación del sprint, donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcción del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostración de lo construido al final de iteración en reuniones de revisión; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho más allá de construir el código, por lo general, se incluyen procesos de validación con pruebas unitarias y pruebas de integración.
+    p.mb-4
+      strong Scrum
+      |  establece el concepto de 
+      strong sprint
+      |  para referirse a una iteraci&oacute;n que contempla tiempos fijos entre 2 y 4 semanas dependiendo del equipo de trabajo, durante este tiempo se incluye la planeaci&oacute;n del 
+      strong sprint
+      | , donde se definen los requerimientos a desarrollar en ese periodo de tiempo, una fase de construcci&oacute;n del producto y, finalmente, un proceso de despliegue para poder hacer la respectiva demostraci&oacute;n de lo construido al final de iteraci&oacute;n en reuniones de revisi&oacute;n; en este marco de trabajo se redefine el concepto de requerimiento hecho y normalmente va mucho m&aacute;s all&aacute; de construir el c&oacute;digo, por lo general, se incluyen procesos de validaci&oacute;n con pruebas unitarias y pruebas de integraci&oacute;n.
 
-    p.mb-4 El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina pila de producto (product backlog), la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de historias de usuario.
+    p.mb-4
+      | El artefacto mediante el cual se condensan todos los requerimientos del sistema se denomina 
+      strong pila de producto (product backlog)
+      | , la cual es una lista ordenada por prioridad de todos los requerimientos del sistema generalmente descritos en la forma de 
+      strong historias de usuario.
 
     .row.mb-5.justify-content-center
       .col-8.col-md-4.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
@@ -330,7 +345,11 @@
     .w-75
       p.mb-4 Tal vez la herramienta más conocida que permite implementar los principios de Kanban es el tablero Kanban, el cual permite mapear y visualizar el flujo de trabajo.Este se divide en columnas a través de las cuales se pueden visualizar cada una de las fases del proceso; las filas del tablero representan los diferentes tipos de actividades específicas que se desarrollan en el marco del proyecto.
 
-      p.mb-4 Normalmente el tablero tiene tres secciones que representan el estado de cada una de las tareas: por hacer, en proceso, hecho.
+      p.mb-4
+        | Normalmente el tablero tiene 
+        strong tres secciones
+        |  que representan el estado de cada una de las tareas: 
+        strong por hacer, en proceso, hecho.
 
       p.mb-4 Cada equipo de trabajo puede realizar un mapeo más detallado de su proceso y agregar tanta sección como considere pertinente, como se muestra en la siguiente figura.
 

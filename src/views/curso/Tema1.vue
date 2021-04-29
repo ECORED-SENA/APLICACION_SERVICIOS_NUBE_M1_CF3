@@ -109,7 +109,22 @@
     
     .h5.pt-5 1.1.3 Técnica urgente
 
-    p.mb-4 Aquí se utiliza una tabla de dos dimensiones, donde la horizontal estará determinada por el valor de la urgencia en el requerimiento, el cual corresponde a un valor numérico entre 1 y 5, donde un valor de 5 implica la mayor urgencia y 1 que no hay tanto apuro en el desarrollo de requerimiento; y la dimensión vertical estará determinada por el valor del negocio, solo que esta vez, a diferencia de la técnica anterior, el valor del negocio también se rige por una escala de 1 a 5, siendo 5 el de mayor valor de negocio posible para un requerimiento (Porfirio, 2021).
+    p.mb-4
+      | Aqu&iacute; se utiliza una tabla de dos dimensiones, donde la horizontal estar&aacute; determinada por el valor de la urgencia en el requerimiento, el cual corresponde a un valor num&eacute;rico entre 
+      strong 1
+      |  y 
+      strong 5
+      | , donde un valor de 
+      strong 5
+      |  implica la mayor urgencia y 
+      strong 1
+      |  que no hay tanto apuro en el desarrollo de requerimiento; y la dimensi&oacute;n vertical estar&aacute; determinada por el valor del negocio, solo que esta vez, a diferencia de la t&eacute;cnica anterior, el valor del negocio tambi&eacute;n se rige por una escala de 
+      strong 1
+      |  a 
+      strong 5
+      | , siendo 
+      strong 5
+      |  el de mayor valor de negocio posible para un requerimiento (Porfirio, 2021).
 
     p.mb-4 Para determinar la prioridad final de un requerimiento, se utiliza una escala de colores que surge a partir de la multiplicación de los valores de las escalas de urgencia y de valor de negocio según la siguiente tabla:
 
@@ -248,12 +263,32 @@
                 img(src="@/assets/curso/tema1/img10.svg", alt="item")
           p.text-center W: indica una funcionalidad que no estará por ahora, de pronto más adelante (Wont).
     
-    p.mb-4 Los requerimientos son priorizados utilizando el siguiente orden: primero los que tienen etiqueta M, luego los requerimientos con etiqueta S, después aquellos con C y, finalmente, los etiquetados como W.
+    p.mb-4
+      | Los requerimientos son priorizados utilizando el siguiente orden: primero los que tienen etiqueta 
+      strong M
+      | , luego los requerimientos con etiqueta 
+      strong S
+      | , despu&eacute;s aquellos con 
+      strong C
+      |  y, finalmente, los etiquetados como 
+      strong W.
 
-    .row.mb-5.justify-content-center.align-items-center
+    .row.mb-5
       .col-12.col-md-8.mb-4.mb-md-0
-        p.mb-4 Esta técnica requiere de un proceso de consenso sobre el significado de cada una de las etiquetas asignables a cada requerimiento. Los requisitos de tipo M son aquellos obligatorios y que, de no ser abordados, implicaría directamente el fracaso; es importante entonces acordar qué se puede entregar y que sea útil, adicionalmente deben formar parte de un conjunto coherente, ya que si, sencillamente se seleccionan todos los requerimientos de tipo M, automáticamente todos se transforman en requerimientos de tipo M y se pierde la dinámica de la técnica.
-        p Normalmente el proceso de desarrollo de software es iterativo e incremental por lo que dependiendo del momento en que se encuentre un requerimiento, que ahora puede ser W, en la siguiente iteración puede asumir un valor de M. 
+        p.mb-4
+          | Esta t&eacute;cnica requiere de un proceso de consenso sobre el significado de cada una de las etiquetas asignables a cada requerimiento. Los requisitos de tipo 
+          strong M
+          |  son aquellos obligatorios y que, de no ser abordados, implicar&iacute;a directamente el fracaso; es importante entonces acordar qu&eacute; se puede entregar y que sea &uacute;til, adicionalmente deben formar parte de un conjunto coherente, ya que si, sencillamente se seleccionan todos los requerimientos de tipo 
+          strong M
+          | , autom&aacute;ticamente todos se transforman en requerimientos de tipo 
+          strong M
+          |  y se pierde la din&aacute;mica de la t&eacute;cnica.
+        
+        p
+          | Normalmente el proceso de desarrollo de software es iterativo e incremental por lo que dependiendo del momento en que se encuentre un requerimiento, que ahora puede ser 
+          strong W
+          | , en la siguiente iteraci&oacute;n puede asumir un valor de 
+          strong M.
       .col-8.col-md-4
         figure
           img(src="@/assets/curso/tema1/img11.png", alt="proceso de análisis de requisitos")
@@ -268,13 +303,26 @@
         figure
           img.w-25.mx-auto.m-4(src="@/assets/curso/tema1/img13.svg", alt="proceso de priorizació")
       .col-12.col-md-8
-        p.mb-4 Es una técnica basada principalmente en función de la complejidad y la exactitud en los resultados, básicamente consiste en realizar el proceso de priorización utilizando como base la opinión del gerente de proyecto o dueño de producto, o de algún stakeholder con conocimientos en la industria asociada al producto a desarrollar (Porfirio, 2021).
+        p.mb-4
+          | Es una t&eacute;cnica basada principalmente en funci&oacute;n de la complejidad y la exactitud en los resultados, b&aacute;sicamente consiste en realizar el proceso de priorizaci&oacute;n utilizando como base la opini&oacute;n del gerente de proyecto o due&ntilde;o de producto, o de alg&uacute;n 
+          strong stakeholder
+          |  con conocimientos en la industria asociada al producto a desarrollar (Porfirio, 2021).
+
 
         p Este tipo de técnica funciona muy bien para proyectos pequeños con un dueño de negocio que tiene mucho conocimiento del problema y de la solución que necesita para resolverlo; sin embargo, se debe utilizar esta técnica con cuidado ya que se basa en una visión sesgada del negocio.
     
     .h5.pt-5 1.1.6 Matriz de priorización
 
-    p.mb-4 Esta técnica consiste en construir una tabla donde cada requerimiento es valorado en una escala de 0 a 10 o de 0 a 100 para cada dimensión alineada con los objetivos del producto. Normalmente cada dimensión tiene un peso porcentual, de modo que cada requerimiento tendrá un valor final a partir de la sumatoria de la multiplicación de cada puntuación por el peso de cada dimensión (Porfirio, 2021).
+    p.mb-4
+      | Esta t&eacute;cnica consiste en construir una tabla donde cada requerimiento es valorado en una escala de 
+      strong 0
+      |  a 
+      strong 10
+      |  o de 
+      strong 0
+      |  a 
+      strong 100
+      |  para cada dimensi&oacute;n alineada con los objetivos del producto. Normalmente cada dimensi&oacute;n tiene un peso porcentual, de modo que cada requerimiento tendr&aacute; un valor final a partir de la sumatoria de la multiplicaci&oacute;n de cada puntuaci&oacute;n por el peso de cada dimensi&oacute;n (Porfirio, 2021).
 
     p.mb-4 Por ejemplo, se debe considerar la siguiente tabla:
 
@@ -514,7 +562,10 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.w-75.mb-4 Al construir una matriz de trazabilidad se deben usar los campos que se consideren útiles para el proyecto, pues no todos los proyectos son iguales y la estructura definida para uno puede no resultar conveniente para otro proyecto. Cuando se usa, esta matriz debe permanecer actualizada a lo largo del ciclo de vida de construcción del proyecto.
+    p.w-75.mb-4
+      | Al construir una matriz de trazabilidad se deben usar los campos que se consideren &uacute;tiles para el proyecto, pues no todos los proyectos son iguales y la estructura definida para uno puede no resultar conveniente para otro proyecto. 
+      strong
+        | Cuando se usa, esta matriz debe permanecer actualizada a lo largo del ciclo de vida de construcci&oacute;n del proyecto.
 
     #t_1_3.titulo-segundo.mt-5.pt-4
       .h4 1.3 Descomposición funcional
