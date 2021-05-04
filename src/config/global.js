@@ -165,8 +165,8 @@ export const creditos = {
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'María Isabel Román Rueda',
-      cargo: 'Revisora de estilo',
+      nombre: 'Rafael Augusto Mantilla López',
+      cargo: 'Revisor de estilo',
       centro: 'Centro industrial del diseño Y la manufactura',
       regional: 'Regional Santander',
     },
