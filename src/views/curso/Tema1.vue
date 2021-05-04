@@ -53,19 +53,20 @@
 
     .d-flex.mb-4
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img05.svg", alt="item")
+        img.z-index-1(src="@/assets/curso/tema1/img06.svg", alt="item")
       .EleDOS.p-4.d-flex.align-items-center
         p Usar solo el valor del negocio como elemento de priorización puede generar problemas, ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo, por esta razón también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento donde expresa una estimación de esfuerzo, cuanto más grande sea el número implica más esfuerzo requerido con miras a realizar el requerimiento.
     
     .d-flex.mb-5
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img06.svg", alt="item")
+        img.z-index-1(src="@/assets/curso/tema1/img05.svg", alt="item")
       .EleDOS.p-4.d-flex.align-items-center
         p Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. A continuación se da un ejemplo.
 
+    p
+      strong Tabla 1 - Ejemplo de aplicación técnica de puntos de historia y valor del negocio
     .conTabla.mb-3
       table.tabla-d.text-center.mb-3
-        caption Tabla 1 - Ejemplo de aplicación técnica de puntos de historia y valor del negocio.
         tr
           th Requerimientos
           th Valor del negocio
@@ -107,6 +108,8 @@
           td 8
           td 0,25
     
+    p.mb-4 Si se trata de un proyecto de siete (7) requerimientos con los valores de negocio, puntos de historia y cocientes como se describe en la tabla anterior, al realizar el proceso de priorización quedaría en el primer lugar el requerimiento R02 ya que tiene el cociente más alto; es decir, representa un requerimiento fácil de construir para el grupo de desarrolladores y, adicionalmente, tiene un alto valor de negocio para el cliente; luego, en el segundo lugar, el requerimiento R01 y R05 y así sucesivamente se registran las prioridades de acuerdo con el valor del cociente de mayor a menor.
+    
     .h5.pt-5 1.1.3 Técnica urgente
 
     p.mb-4
@@ -128,9 +131,10 @@
 
     p.mb-4 Para determinar la prioridad final de un requerimiento, se utiliza una escala de colores que surge a partir de la multiplicación de los valores de las escalas de urgencia y de valor de negocio según la siguiente tabla:
 
+    p
+      strong Tabla 2 - Tabla de referencia para la técnica urgente | Nota: Tomado de Porfirio (2021)
     .conTabla.mb-3
       table.mb-3
-        caption Tabla 2 - Tabla de referencia para la técnica urgente | Nota: Tomado de Porfirio (2021).
         thead
           tr
             td(rowspan='7').text-center.fw-bold Valor de negocio
@@ -180,9 +184,10 @@
 
     p.mb-4 Luego se consideran los requerimientos de mayor prioridad que están en el sector de color rojo, luego los de color naranja, luego los de color amarillo y, por último, los requerimientos del sector de color verde. Para entender mejor este estilo de priorización observar el siguiente ejemplo:
 
+    p
+      strong Tabla 3 - Ejemplo de aplicación técnica urgente
     .conTabla.mb-3      
-      table.tabla-d.text-center.mb-3
-        caption Tabla 3 - Ejemplo de aplicación técnica urgente.
+      table.tabla-d.text-center.mb-3        
         thead
           tr
             th Requerimientos
@@ -225,6 +230,8 @@
             td 1
             td 3
             td.TemaColor02 Verde
+    
+    p.mb-4 Al realizar la multiplicación de los valores de negocio y el valor de la urgencia se puede establecer en qué sector se encuentra cada requerimiento, tomando en cuenta los valores del ejemplo de la tabla anterior se puede concluir que el primer requerimiento a abordar sería el R03 que está en el sector de color rojo, luego el requerimiento R05 que está en el sector de color naranja y así sucesivamente.
 
     .h5.pt-5 1.1.4 Técnica MoSCoW
 
@@ -326,9 +333,10 @@
 
     p.mb-4 Por ejemplo, se debe considerar la siguiente tabla:
 
+    p
+      strong Tabla 4 - Ejemplo de aplicación técnica de matriz de priorización
     .conTabla.mb-3
-      table.tabla-d.tableEx2.text-center.mb-3
-        caption Tabla 4 - Ejemplo de aplicación técnica de matriz de priorización
+      table.tabla-d.tableEx2.text-center.mb-3        
         thead
           tr
             th(rowspan='3') Requerimiento
@@ -461,10 +469,10 @@
     
     p.mb-4 A continuación, se muestra el ejemplo de la estructura en Excel de una matriz de trazabilidad.
 
+    p
+      strong Tabla 5 - Ejemplo de la estructura de una matriz de trazabilidad.
     .conTabla.mb-4
       table.tabla-d.tableEx.text-center.mb-3
-        caption Tabla 5 - Ejemplo de la estructura de una matriz de trazabilidad.
-
         thead
           tr
             th(colspan='4') IDENTIFICACI&Oacute;N

@@ -1,15 +1,15 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.cWhite(icono="far fa-question-circle" titulo="Actividad didáctica")
+  BannerInterno.cWhite(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .titulo-segundo
       .h4 Actividad didáctica 1
     
     .row.mb-5.justify-content-center
-      .col-8.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
+      .col-6.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
         figure
-          img.w-25.mx-auto.m-4(src="@/assets/curso/tema1/img14.svg", alt="proceso de priorizació")
+          img.w-50.mx-auto.m-4(src="@/assets/curso/actividad/img01.svg", alt="proceso de priorizació")
       .col-12.col-md-9
         p.mb-4 Afianzar algunos de los conceptos más importantes asociados al proceso de priorización de requisitos.
         .tarjeta.tarjeta--morada.p-3
@@ -25,9 +25,9 @@
       .h4 Actividad didáctica 2
     
     .row.justify-content-center
-      .col-8.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
+      .col-6.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
         figure
-          img.w-25.mx-auto.m-4(src="@/assets/curso/tema2/img07.svg", alt="proceso de priorizació")
+          img.w-50.mx-auto.m-4(src="@/assets/curso/actividad/img02.svg", alt="proceso de priorizació")
       .col-12.col-md-9
         p.mb-4 Afianzar el proceso de priorización de requisitos por medio de algunas técnicas (puntos de historia y valor del negocio, técnica urgente, MoSCow y matriz de priorización).
         .tarjeta.tarjeta--morada.p-3

@@ -63,24 +63,26 @@
     
     p.mb-4 Ahora se deben revisar algunos ejemplos que se presentan sobre el diligenciamiento del formato SRS:
 
-    .conTabla.mb-4.W90auto
-      table.tabla-d.text-center.mb-3
-        caption Tabla 7 - Ejemplos de SRS diligenciados
-        tr
-          th Proyecto
-          th Link del documento
-        tr
-          td Sistema Integral Acad&eacute;mico
-          td
-            a(href='https://bit.ly/2Pzw80U') https://bit.ly/2Pzw80U 
-        tr
-          td Sistema de Informaci&oacute;n de Seminarios Web
-          td
-            a(href='https://bit.ly/3cwwa2Q') https://bit.ly/3cwwa2Q 
-        tr
-          td Sistema de Estacionamiento Tarifado
-          td
-            a(href='https://bit.ly/3syWvmd') https://bit.ly/3syWvmd
+    .W90auto
+      p
+        strong Tabla 7 - Ejemplos de SRS diligenciados
+      .conTabla.mb-4
+        table.tabla-d.text-center.mb-3
+          tr
+            th Proyecto
+            th Link del documento
+          tr
+            td Sistema Integral Acad&eacute;mico
+            td
+              a(href='https://bit.ly/2Pzw80U') https://bit.ly/2Pzw80U 
+          tr
+            td Sistema de Informaci&oacute;n de Seminarios Web
+            td
+              a(href='https://bit.ly/3cwwa2Q') https://bit.ly/3cwwa2Q 
+          tr
+            td Sistema de Estacionamiento Tarifado
+            td
+              a(href='https://bit.ly/3syWvmd') https://bit.ly/3syWvmd
     
     #t_2_2.titulo-segundo.mt-5.pt-4
       .h4 2.2 Estándar IEEE 29148:2018
@@ -109,22 +111,23 @@
           | Propósito, alcance del estándar, generalidades.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Explicación de los otros estándares que lo conforman.
+          | Explicación de los otros estándares que lo conforman.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Referencias a normas que lo conforman.
+          | Referencias a normas que lo conforman.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Clarificación de la terminología, lo que es muy valioso para cuando se quiere establecer nuevos. procesos de ingeniería de requerimientos en una empresa.
+          | Clarificación de la terminología, lo que es muy valioso para cuando se quiere establecer nuevos. procesos de ingeniería de requerimientos en una empresa.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Clarificación de los conceptos y procesos.
+          | Clarificación de los conceptos y procesos.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Explicación y contenido de los ítems de información que vienen a través de la especificación de requerimientos o que debemos considerar incluir en la especificación de requerimientos.
+          | Explicación y contenido de los ítems de información que vienen a través de la especificación de requerimientos o que debemos considerar incluir en la especificación de requerimientos.
         li
           i.fas.fa-database
-          | Propósito, alcance del estándar, generalidades.Anexos adicionales para mayor detalle.
+          | Anexos adicionales para mayor detalle.
+
     
     p.mb-4 Esta norma propone un listado de requerimientos mínimos los cuales son la base de la especificación de requerimientos; en ese sentido se proponen los siguientes tipos de requerimientos del sistema:
 
@@ -174,9 +177,10 @@
 
     p.mb-4 Las historias de usuario son una explicación general e informal de una función del software escrita desde la perspectiva del usuario final o cliente. Permiten describir de una manera muy breve un requerimiento, estimar prioridades, alcance y tiempo de realización (Rivadeneira, 2014). En la siguiente tabla, se puede observar la estructura base de un documento de historia de usuario.
 
+    p
+      strong Tabla 8 - Estructura base de un documento de historia de usuario  |  Nota: Tomado de Rivadeneira (2014)
     .conTabla.mb-3
       table.tabla-d.fw-bold.mb-3
-        caption.fw-normal Tabla 8 - Estructura base de un documento de historia de usuario  |  Nota: Tomado de Rivadeneira (2014).
         tr
           th(colspan='2').text-center Historia de usuario
         tr
@@ -214,8 +218,10 @@
     #t_2_4.titulo-segundo.mt-5.pt-4
       .h4 2.4. Scrum y la especificación de requisitos
     
-    figure.mb-4
-      img(src='@/assets/curso/tema2/img03.png', alt='Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos')
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4TBlalyVRUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Scrum y la especificación de requisitos
     
     .row.mb-5.justify-content-center
       .col-8.col-md-4.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
@@ -357,10 +363,7 @@
       img(src='@/assets/curso/tema2/img08.svg', alt='Tablero Kanban')
       figcaption Figura 4 - Tablero Kanban.
 
-    p Dependiendo del marco de trabajo, varía la forma en la que se describen cada una de las tareas del tablero Kanban, por ejemplo, dentro de un marco de trabajo como Scrum cada una de las tareas se podría describir en el formato de historias de usuario.
-
-
-    
+    p Dependiendo del marco de trabajo, varía la forma en la que se describen cada una de las tareas del tablero Kanban, por ejemplo, dentro de un marco de trabajo como Scrum cada una de las tareas se podría describir en el formato de historias de usuario.    
 
 </template>
 

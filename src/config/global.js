@@ -91,7 +91,7 @@ export const menuPrincipal = {
   subMenu: [
     {
       nombreRuta: 'actividad',
-      icono: 'far fa-question-circle',
+      icono: 'fas fa-tasks',
       titulo: 'Actividad didáctica',
       desarrolloContenidos: true,
     },
@@ -302,7 +302,7 @@ export const complementario = [
     texto:
       'California State University Long Beach. (2021). Requirements Engineering, CSU Long Beach, Penzenstadler. ',
     tipo: 'Página web',
-    descarga: 'https://bit.ly/3rtBKXN',
+    link: 'https://bit.ly/3rtBKXN',
   },
   {
     texto:
@@ -313,7 +313,7 @@ export const complementario = [
   {
     texto: 'SO/IEC/IEEE 29148:2011. (s. f.). ISO. ',
     tipo: 'Página web',
-    descarga: 'https://www.iso.org/standard/45171.html',
+    link: 'https://www.iso.org/standard/45171.html',
   },
   {
     texto:
