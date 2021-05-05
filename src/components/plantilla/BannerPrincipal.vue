@@ -5,7 +5,7 @@
   )
     .row.justify-content-around
       .col-lg-7.col-xxl-5.banner-principal__info.pb-4.pb-sm-5
-        .banner-principal__programa
+        //.banner-principal__programa
           span.text-small.insignia.me-2 Programa
           p.text-small.mb-0 {{globalData.programaFormacion}}
         .banner-principal__componente

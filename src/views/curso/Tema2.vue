@@ -103,28 +103,28 @@
 
     .TemaColorX.p-4.rounded.W90auto.mb-4
       ul.lista-ul--color
-        li
+        li.d-flex
           i.fas.fa-database
           | Introducción, resumen y tabla de contenido.
-        li
+        li.d-flex
           i.fas.fa-database
           | Propósito, alcance del estándar, generalidades.
-        li
+        li.d-flex
           i.fas.fa-database
           | Explicación de los otros estándares que lo conforman.
-        li
+        li.d-flex
           i.fas.fa-database
           | Referencias a normas que lo conforman.
-        li
+        li.d-flex
           i.fas.fa-database
           | Clarificación de la terminología, lo que es muy valioso para cuando se quiere establecer nuevos. procesos de ingeniería de requerimientos en una empresa.
-        li
+        li.d-flex
           i.fas.fa-database
           | Clarificación de los conceptos y procesos.
-        li
+        li.d-flex
           i.fas.fa-database
           | Explicación y contenido de los ítems de información que vienen a través de la especificación de requerimientos o que debemos considerar incluir en la especificación de requerimientos.
-        li
+        li.d-flex
           i.fas.fa-database
           | Anexos adicionales para mayor detalle.
 
@@ -133,40 +133,40 @@
 
     .TemaColorX.p-4.rounded.W90auto.mb-4
       ul.lista-ul
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Requerimientos funcionales: representan necesidades de los interesados del software.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Requerimientos de usabilidad: requerimientos que son utilizados directamente por los involucrados en la soluci&oacute;n (requerimientos de uso).
-        li 
+        li.d-flex
           i.lista-ul__vineta
           | Requerimientos de desempe&ntilde;o: disponibilidad de servicios y procesos transaccionales.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Interfaces del sistema: interacci&oacute;n entre personas con el software.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Operaciones del sistema.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Modos y estados del sistema.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Caracter&iacute;sticas f&iacute;sicas (hardware).
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Condiciones del ambiente (operativas y operacionales).
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Seguridad del sistema.
-        li 
+        li.d-flex
           i.lista-ul__vineta
           | Manejo de la informaci&oacute;n.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Pol&iacute;ticas y regulaci&oacute;n: normas y est&aacute;ndares que fundamenta el software.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Ciclo de vida del sistema: establece las etapas y duraci&oacute;n del desarrollo y uso en producci&oacute;n.
     
@@ -202,16 +202,16 @@
 
     .TemaColorX.p-4.rounded.W90auto.mb-4
       ul.lista-ul
-        li 
+        li.d-flex
           i.lista-ul__vineta
           | Las historias de usuario se centran en solucionar problemas a usuarios reales.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Las historias de usuario permiten la colaboración, ya que como su descripción es corta se necesita que el equipo colabore para decidir cómo dar solución a la historia para cumplir con la necesidad expresada por el usuario.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Las historias impulsan la creatividad, ya que fomentan que el equipo piense de forma crítica y creativa sobre cómo solucionar de la mejor manera el objetivo.
-        li 
+        li.d-flex 
           i.lista-ul__vineta
           | Las historias de usuario motivan, pensar en la mejor solución para una problemática particular representan retos y pequeñas victorias para el equipo.
     
@@ -302,19 +302,19 @@
 
     .TemaColorX.p-4.rounded.mb-4
       ol.lista-ol--cuadro
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 1
           | Calidad garantizada, todo lo que se produce debe salir bien sin márgenes de errores, prima la calidad sobre la rapidez.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 2
           | Reducción del desperdicio. Hacer solamente lo justo y necesario, pero hacerlo bien.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 3
           | Mejora continua.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 4
           | Flexibilidad: se pueden priorizar tareas entrantes según las necesidades del momento.
@@ -323,27 +323,27 @@
 
     .TemaColorX.p-4.rounded.mb-4
       ol.lista-ol--cuadro
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 1
           | Visualizar el flujo de trabajo.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 2
           | Eliminar interrupciones.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 3
           | Gestionar el flujo.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 4
           | Hacer políticas explícitas que fomenten la visibilidad.
-        li 
+        li.d-flex 
           .lista-ol--cuadro__vineta
             span 4
           | Circuitos de realimentación.
-        li 
+        li.d-flex
           .lista-ol--cuadro__vineta
             span 4
           | Mejorar colaborando.
