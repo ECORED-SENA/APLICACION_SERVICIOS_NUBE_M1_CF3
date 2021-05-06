@@ -220,9 +220,9 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/4TBlalyVRUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Scrum y la especificación de requisitos
-    
+
     .row.mb-5.justify-content-center
       .col-8.col-md-4.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
         figure
