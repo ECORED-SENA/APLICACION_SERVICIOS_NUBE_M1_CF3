@@ -136,33 +136,16 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: [
-        'Henry Eduardo Bastidas Paruma',
-        'Jonathan Guerrero Astaiza',
-        'Peter Emerson Pinchao Solis',
-        'Zulema Yidney León Escobar',
-      ],
+      nombre: ['Jonathan Guerrero Astaiza', 'Zulema Yidney León Escobar'],
       cargo: 'Expertos temáticos',
       centro: 'Centro de teleinformática y producción industrial',
       regional: 'Regional Cauca',
     },
     {
-      nombre: ['Alix Cecilia Chinchilla Rueda', 'Oscar Absalón Guevara'],
-      cargo: 'Diseñadores instruccionales',
+      nombre: 'Alix Cecilia Chinchilla Rueda',
+      cargo: 'Diseñadora instruccional',
       centro: 'Centro de gestión industrial',
       regional: 'Regional Bogotá',
-    },
-    {
-      nombre: ['José Gabriel Ortiz Abella', 'Julia Isabel Roberto'],
-      cargo: 'Evaluadores instruccionales',
-      centro: 'Centro para la industria y la comunicación gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Ana Catalina Córdoba Sus',
-      cargo: 'Revisión metodológica y pedagógica',
-      centro: 'Centro para la industria de la comunicación gráfica',
-      regional: 'Regional Distrito Capital',
     },
   ],
   desarrolloProducto: [
@@ -180,33 +163,21 @@ export const creditos = {
     },
     {
       nombre: [
-        'Camilo Andrés Villamizar Lizcano',
         'José Jaime Luis Tang Pinzón',
         'Juan Daniel Polanco Muñoz',
+        'Luis Gabriel Urueta Alvarez',
         'Nelson Iván Vera Briceño',
         'Wilson Andres Arenales Cáceres',
-        'Yuly Andrea Rey Quiñonez',
       ],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {
-      nombre: [
-        'Lizeth Karina Manchego Suarez',
-        'Luis Gabriel Urueta Alvarez',
-        'Jhon Jairo Urueta Alvarez',
-      ],
+      nombre: 'Luis Gabriel Urueta Alvarez',
       cargo: 'Desarrollo Front-End',
     },
     {
-      nombre: [
-        'Jenny Paola Montillo',
-        'Jhana Johana Bustillo',
-        'María Isabel Román Rueda',
-        'Rafael Augusto Mantilla',
-        'Veimar Celis Meléndez',
-        'Yuli Marcela Gómez',
-      ],
-      cargo: 'Revisores de contenido',
+      nombre: ['Rafael Augusto Mantilla'],
+      cargo: 'Revisor de contenidos',
     },
     {
       centro: 'Centro industrial del diseño y la manufactura',
