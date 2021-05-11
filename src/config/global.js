@@ -36,7 +36,7 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '1.2',
-          titulo: 'Matrices de trazabilidad',
+          titulo: 'Matriz de trazabilidad',
           hash: 't_1_2',
         },
         {
@@ -70,7 +70,7 @@ export const menuPrincipal = {
           icono: 'far fa-file-alt',
           numero: '2.3',
           titulo:
-            'La especificación de requisitos a través de métodos y metodologías ágiles',
+            'La especificación de requisitos a través de marcos de trabajo ágiles',
           hash: 't_2_3',
         },
         {
